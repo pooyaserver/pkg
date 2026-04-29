@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/relay.js": {
+      "runtime": "edge"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/relay"
+    }
+  ]
+}
