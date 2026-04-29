@@ -1,0 +1,17 @@
+{
+  "name": "vercel-pooya-relay",
+  "version": "1.0.0",
+  "description": "Vercel Edge",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "deploy": "vercel --prod",
+    "dev": "vercel dev"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": ["xhttp", "xray", "v2ray", "vercel", "relay", "proxy"],
+  "author": "",
+  "license": "MIT"
+}
